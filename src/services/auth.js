@@ -59,7 +59,7 @@ class AuthService {
       extUserId: dataUser.user.id,
       extUserName: dataUser.fullName,
       gameId: 1,
-      linkCode: "61931140",
+      linkCode: "129786564",
     };
     try {
       const response = await dataUser.http.post("info", body);
